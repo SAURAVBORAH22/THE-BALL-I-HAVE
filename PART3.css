@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0 ;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+}
+
+h1, h5 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+    border-left: thin solid #ddd;
+    border-top: thin solid #ddd;
+    border-right: thin solid #ddd;
+}
+
+canvas:hover {
+    cursor: none;
+}
